@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="bg-pink">
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#activite">Nos activités</a></li>
+            <li><a href="#projet">Mes projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- SECTION HERO -->
+    <section id="bgImg" class="firstSection">
+        <h1>Ma 1ère section full-screen</h1>
+        <h2>Kevin PHILOCLES</h2>
+        <h3>Formateur / Développeur web</h3>
+        <a href="#contact">Contact</a>
+    </section>
+    <!-- FIN SECTION HERO -->
+
+    <!-- SECTION ACTIVITE -->
+    <section id="activite" class="bg-pink">
+        <h1>Ma 2ème section full-screen</h1>
+        <h2>Mes activités</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, sunt maiores. Labore, earum repellat
+            tenetur sint explicabo optio harum. Repellendus, officiis? Atque voluptas placeat laboriosam aut asperiores
+            cum minus reprehenderit
+        </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, sunt maiores. Labore, earum repellat
+            tenetur sint explicabo optio harum. Repellendus, officiis? Atque voluptas placeat laboriosam aut asperiores
+            cum minus reprehenderit.
+        </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, sunt maiores. Labore, earum repellat
+            tenetur sint explicabo optio harum. Repellendus, officiis? Atque voluptas placeat laboriosam aut asperiores
+            cum minus reprehenderit.
+        </p>
+
+        <ol>
+            <li>1ère activité</li>
+            <li>2ème activité</li>
+            <li>3ème activité</li>
+        </ol>
+
+
+    </section>
+    <!-- FIN SECTION ACTIVITE -->
+
+    <!-- SECTION PROJET -->
+    <section id="projet">
+        <h1>Ma 3ème section full-screen</h1>
+        <h2>Mes projets</h2>
+        <div class="contentProject">
+            <div class="project">
+                <div class="imageProject">
+                    <a href="#"><img src="./img/project.jpg" alt="Projet 1"></a>
+                </div>
+                <div class="titleProject">
+                    <a href="#">Mon projet n°1</a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="imageProject">
+                    <a href="#"><img src="./img/project.jpg" alt="Projet 2"></a>
+                </div>
+                <div class="titleProject">
+                    <a href="#">Mon projet n°2</a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="imageProject">
+                    <a href="#"><img src="./img/project.jpg" alt="Projet 3"></a>
+                </div>
+                <div class="titleProject">
+                    <a href="#">Mon projet n°3</a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="imageProject">
+                    <a href="#"><img src="./img/project.jpg" alt="Projet 4"></a>
+                </div>
+                <div class="titleProject">
+                    <a href="#">Mon projet n°4</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SECTION PROJET -->
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="bg-white">
+        <h1>Ma 4ème section full-screen</h1>
+
+        <form action="" method="post">
+            <h2>Me contacter</h2>
+            <div class="form-group">
+                <label for="nom">Votre nom</label>
+                <input type="text" name="nom" id="nom" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Votre prénom</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Votre email</label>
+                <input type="email" name="email" id="email" placeholder="Votre email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Votre message</label>
+                <textarea name="message" id="message" placeholder="Votre message"></textarea>
+            </div>
+
+            <input type="submit" value="Envoyer" class="btn">
+        </form>
+    </section>
+    <!-- FIN SECTION CONTACT -->
+</body>
+
+</html>
